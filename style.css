@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.all{
+    width: 70%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    overflow:scroll;
+    position: absolute;
+    bottom: 0;
+}
+
+.input{ 
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    width: 20%;
+    direction: rtl;
+}
+
+.all::-webkit-scrollbar{
+    display: none;
+}
